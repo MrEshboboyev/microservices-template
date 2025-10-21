@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35410.144 d17.12
+VisualStudioVersion = 17.12.35410.144
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{13D609C6-8380-46BC-A298-EB545A5C8815}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		docs\APPSETTINGS_CONFIGURATION.md = docs\APPSETTINGS_CONFIGURATION.md
+		docs\ENHANCEMENT_SUMMARY.md = docs\ENHANCEMENT_SUMMARY.md
+		docs\SHARED_LIBRARY_ENHANCEMENTS.md = docs\SHARED_LIBRARY_ENHANCEMENTS.md
+		docs\USAGE_EXAMPLES.md = docs\USAGE_EXAMPLES.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +26,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7123FCDA-EDB0-499D-95A3-FB07D6122665}
 	EndGlobalSection
 EndGlobal
